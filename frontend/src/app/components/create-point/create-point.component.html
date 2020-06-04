@@ -1,0 +1,104 @@
+<div id="page-create-point">
+  <header>
+    <img src='../../../assets/images/logo.svg' alt='Ecoleta'>
+
+    <a routerLink='/' routerLinkActive=true>
+      voltar
+    </a>
+  </header>
+
+  <form>
+    <h1>Cadastro do ponto de coleta</h1>
+
+    <fieldset>
+      <legend>
+        <h2>Dados</h2>
+      </legend>
+
+      <div class="field">
+        <label for="name">Nome da entidade</label>
+        <input type="text" name='name' id='name'>
+      </div>
+
+      <div class="field-group">
+
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input type="email" name='email' id='email'>
+        </div>
+
+        <div class="field">
+          <label for="Whatsapp">Whatsapp</label>
+          <input type="text" name='Whatsapp' id='Whatsapp'>
+        </div>
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <h2>Endereço</h2>
+        <span>Selecione o endereço no mapa</span>
+      </legend>
+
+      <div class="map" leaflet [leafletOptions]="options">
+      </div>
+
+      <div class="field-group">
+        <div class="field">
+          <label for="uf">Estado (UF)</label>
+          <select name="uf" id="uf">
+            <option value="0">Selecione uma UF</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="city">Cidade</label>
+          <select name="city" id="city">
+            <option value="0">Selecione uma cidade</option>
+          </select>
+        </div>
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <h2>Ítens de coleta</h2>
+        <span>Selecione um ou mais itens abaixo</span>
+      </legend>
+
+      <ul class="items-grid">
+        <li class="selected">
+          <img src="http://localhost:3333/uploads/oleo.svg" alt="oleo">
+          <span>Óleo de cozinha</span>
+        </li>
+        <li>
+          <img src="http://localhost:3333/uploads/oleo.svg" alt="oleo">
+          <span>Óleo de cozinha</span>
+        </li>
+        <li>
+          <img src="http://localhost:3333/uploads/oleo.svg" alt="oleo">
+          <span>Óleo de cozinha</span>
+        </li>
+        <li>
+          <img src="http://localhost:3333/uploads/oleo.svg" alt="oleo">
+          <span>Óleo de cozinha</span>
+        </li>
+        <li>
+          <img src="http://localhost:3333/uploads/oleo.svg" alt="oleo">
+          <span>Óleo de cozinha</span>
+        </li>
+        <li>
+          <img src="http://localhost:3333/uploads/oleo.svg" alt="oleo">
+          <span>Óleo de cozinha</span>
+        </li>
+      </ul>
+
+    </fieldset>
+
+    <button type="submit">
+      Cadastrar ponto de coleta
+    </button>
+
+  </form>
+</div>
