@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { latLng, tileLayer, marker, icon } from 'leaflet';
+import { latLng, tileLayer, marker, icon, LeafletMouseEvent } from 'leaflet';
 import { ApiService } from 'src/app/shared/services/api.service';
+import { Itens, Ufs } from 'src/app/shared/model/Itens';
 
 @Component({
   selector: 'app-create-point',
@@ -26,11 +27,34 @@ export class CreatePointComponent implements OnInit {
     center: latLng([ 46.879966, -121.726909 ])
   };
 
-  constructor(service: ApiService) { }
+  itens: Itens[];
+  ufs: string[];
+
+  constructor(private service: ApiService) { }
 
   ngOnInit(): void {
 
+   this.getItens();
 
+   this.getUfs();
+
+  }
+
+  getItens() {
+
+    this.service.getItens().subscribe((res => {
+      this.itens = res;
+    }));
+
+  }
+
+  getUfs() {
+
+    this.service.getUfs().subscribe((res => {
+
+      this.ufs = res.map(x => x.sigla);
+
+    }));
 
   }
 

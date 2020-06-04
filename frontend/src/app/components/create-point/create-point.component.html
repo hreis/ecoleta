@@ -47,9 +47,12 @@
       <div class="field-group">
         <div class="field">
           <label for="uf">Estado (UF)</label>
-          <select name="uf" id="uf">
-            <option value="0">Selecione uma UF</option>
-          </select>
+
+          <!-- <mat-select [(ngModel)]="binding" multiple>
+
+            <mat-option *ngFor="let uf of ufs" [value]="uf">{{uf}}</mat-option>
+
+          </mat-select> -->
         </div>
         <div class="field">
           <label for="city">Cidade</label>
@@ -66,32 +69,13 @@
         <h2>Ítens de coleta</h2>
         <span>Selecione um ou mais itens abaixo</span>
       </legend>
-
+      <!-- key={{item.id}}key={{item.id}} -->
       <ul class="items-grid">
-        <li class="selected">
-          <img src="http://localhost:3333/uploads/oleo.svg" alt="oleo">
-          <span>Óleo de cozinha</span>
+        <li *ngFor="let item of itens; index as i;">
+          <img src={{item.image_url}} alt="oleo">
+          <span>{{item.title}}</span>
         </li>
-        <li>
-          <img src="http://localhost:3333/uploads/oleo.svg" alt="oleo">
-          <span>Óleo de cozinha</span>
-        </li>
-        <li>
-          <img src="http://localhost:3333/uploads/oleo.svg" alt="oleo">
-          <span>Óleo de cozinha</span>
-        </li>
-        <li>
-          <img src="http://localhost:3333/uploads/oleo.svg" alt="oleo">
-          <span>Óleo de cozinha</span>
-        </li>
-        <li>
-          <img src="http://localhost:3333/uploads/oleo.svg" alt="oleo">
-          <span>Óleo de cozinha</span>
-        </li>
-        <li>
-          <img src="http://localhost:3333/uploads/oleo.svg" alt="oleo">
-          <span>Óleo de cozinha</span>
-        </li>
+
       </ul>
 
     </fieldset>
