@@ -1,7 +1,5 @@
 import Knex from 'knex';
 
-//create seed
-
 export async function seed(knex: Knex) {
     await knex('itens').insert([
         { title: 'Lâmpadas', image: 'lampadas.svg' },
