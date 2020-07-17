@@ -16,6 +16,6 @@ export async function up(knex: Knex) {
 }
 
 export async function down(knex: Knex) {
-    // rollback
+    // rollback ...
     return knex.schema.dropTable('point');
 }
