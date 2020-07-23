@@ -1,7 +1,5 @@
-
-
 <h1 align="center">
-    <img alt="Ecoleta" title="#Ecoleta" src="./assets/banner.png" />
+    <img alt="Ecoleta" title="#Ecoleta" src="https://github.com/hreis/ecoleta/blob/master/banner.png" />
 </h1>
 
 <h1 align="center">
