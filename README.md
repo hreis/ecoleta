@@ -80,9 +80,9 @@ The application layout is available on Figma:
 ### Mobile
 
 <p align="center">
-  <img alt="Ecoleta" title="#Ecoleta" src="./frontend/src/assets/images/home-mobile.svg" width="200px">
+  <img alt="Ecoleta" title="#Ecoleta" src="https://raw.githubusercontent.com/hreis/ecoleta/aeacd4c17787e35ac77e89268a775e6927cbbdec/frontend/src/assets/images/detalhes-mobile.svg" width="200px">
 
-  <img alt="Ecoleta" title="#Ecoleta" src="./frontend/src//assets/detalhes-mobile.svg" width="200px">
+  <img alt="Ecoleta" title="#Ecoleta" src=".https://raw.githubusercontent.com/hreis/ecoleta/aeacd4c17787e35ac77e89268a775e6927cbbdec/frontend/src/assets/images/detalhes-mobile.svg" width="200px">
 </p>
 
 ### Web
@@ -228,4 +228,4 @@ The following tools were used in the construction of the project:
 
 This project is under the license [MIT](./LICENSE).
 
-Made with love by Thiago Marinho 👋🏽 [Get in Touch!](Https://www.linkedin.com/in/hreis/)
+Made with love by Hugo Reis 👋 [Get in Touch!](Https://www.linkedin.com/in/hreis/)
