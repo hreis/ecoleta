@@ -66,17 +66,6 @@ Project developed during ** NLW - Next Level Week ** offered by [Rocketseat](htt
    - [x] browse the map to see the registered institutions
    - [x] contact the entity via E-mail or WhatsApp
 
----
-
-## Layout
-
-The application layout is available on Figma:
-
-<a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
-  <img alt="Made by hreis" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
-</a>
-
-
 ### Mobile
 
 <p align="center">
@@ -228,4 +217,4 @@ The following tools were used in the construction of the project:
 
 This project is under the license [MIT](./LICENSE).
 
-Made with love by Hugo Reis 👋 [Get in Touch!](Https://www.linkedin.com/in/hreis/)
+Made with love by Hugo Reis 👋 [Get in Touch!](Https://www.linkedin.com/in/hugo-reis-06343054/)
