@@ -80,17 +80,17 @@ The application layout is available on Figma:
 ### Mobile
 
 <p align="center">
-  <img alt="Ecoleta" title="#Ecoleta" src="./assets/home-mobile.png" width="200px">
+  <img alt="Ecoleta" title="#Ecoleta" src="./frontend/src/assets/images/home-mobile.svg" width="200px">
 
-  <img alt="Ecoleta" title="#Ecoleta" src="./assets/detalhes-mobile.svg" width="200px">
+  <img alt="Ecoleta" title="#Ecoleta" src="./frontend/src//assets/detalhes-mobile.svg" width="200px">
 </p>
 
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Ecoleta" title="#Ecoleta" src="./assets/web.svg" width="400px">
+  <img alt="Ecoleta" title="#Ecoleta" src="./frontend/src/assets/images/web.svg" width="400px">
 
-  <img alt="Ecoleta" title="#Ecoleta" src="./assets/sucesso-web.svg" width="400px">
+  <img alt="Ecoleta" title="#Ecoleta" src="./frontend/src/assets/images/sucesso-web.svg" width="400px">
 </p>
 
 ---
