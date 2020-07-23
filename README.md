@@ -82,7 +82,7 @@ The application layout is available on Figma:
 <p align="center">
   <img alt="Ecoleta" title="#Ecoleta" src="https://raw.githubusercontent.com/hreis/ecoleta/aeacd4c17787e35ac77e89268a775e6927cbbdec/frontend/src/assets/images/detalhes-mobile.svg" width="200px">
 
-  <img alt="Ecoleta" title="#Ecoleta" src=".https://raw.githubusercontent.com/hreis/ecoleta/aeacd4c17787e35ac77e89268a775e6927cbbdec/frontend/src/assets/images/detalhes-mobile.svg" width="200px">
+  <img alt="Ecoleta" title="#Ecoleta" src="https://raw.githubusercontent.com/hreis/ecoleta/master/frontend/src/assets/images/home-mobile.png" width="200px">
 </p>
 
 ### Web
