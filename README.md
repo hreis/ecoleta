@@ -7,7 +7,7 @@
 </h1>
 
 <h3 align="center">
-    Your waste collection marketplace. We help the planet to be cleaner!!
+    Your waste collection marketplace. We help the planet to be cleaner.
 </h3>
 
 <p align="center">
