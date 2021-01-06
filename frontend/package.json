@@ -22,7 +22,7 @@
     "@angular/platform-browser-dynamic": "~9.1.9",
     "@angular/router": "~9.1.9",
     "@asymmetrik/ngx-leaflet": "^7.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "leaflet": "^1.6.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
